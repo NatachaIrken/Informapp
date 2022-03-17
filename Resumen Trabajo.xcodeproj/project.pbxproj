@@ -13,6 +13,12 @@
 		6FF7E7DA27E12AB6000CE455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7E7D827E12AB6000CE455 /* Main.storyboard */; };
 		6FF7E7DC27E12ABE000CE455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7E7DB27E12ABE000CE455 /* Assets.xcassets */; };
 		6FF7E7DF27E12ABE000CE455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7E7DD27E12ABE000CE455 /* LaunchScreen.storyboard */; };
+		6FF7E7E727E139DC000CE455 /* Tablas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7E7E627E139DC000CE455 /* Tablas.storyboard */; };
+		6FF7E7E927E3D067000CE455 /* POO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7E7E827E3D067000CE455 /* POO.storyboard */; };
+		6FF7E7EB27E3D12A000CE455 /* Persistencia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7E7EA27E3D12A000CE455 /* Persistencia.storyboard */; };
+		6FF7E7ED27E3D1EC000CE455 /* BaseDeDatos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7E7EC27E3D1EC000CE455 /* BaseDeDatos.storyboard */; };
+		6FF7E7EF27E3D34C000CE455 /* Url.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7E7EE27E3D34B000CE455 /* Url.storyboard */; };
+		6FF7E7F127E3D3CE000CE455 /* Pod.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF7E7F027E3D3CE000CE455 /* Pod.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		6FF7E7DB27E12ABE000CE455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FF7E7DE27E12ABE000CE455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FF7E7E027E12ABE000CE455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF7E7E627E139DC000CE455 /* Tablas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tablas.storyboard; sourceTree = "<group>"; };
+		6FF7E7E827E3D067000CE455 /* POO.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = POO.storyboard; sourceTree = "<group>"; };
+		6FF7E7EA27E3D12A000CE455 /* Persistencia.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Persistencia.storyboard; sourceTree = "<group>"; };
+		6FF7E7EC27E3D1EC000CE455 /* BaseDeDatos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BaseDeDatos.storyboard; sourceTree = "<group>"; };
+		6FF7E7EE27E3D34B000CE455 /* Url.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Url.storyboard; sourceTree = "<group>"; };
+		6FF7E7F027E3D3CE000CE455 /* Pod.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pod.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				6FF7E7D227E12AB6000CE455 /* AppDelegate.swift */,
+				6FF7E7EE27E3D34B000CE455 /* Url.storyboard */,
 				6FF7E7D427E12AB6000CE455 /* SceneDelegate.swift */,
 				6FF7E7D627E12AB6000CE455 /* ViewController.swift */,
 				6FF7E7D827E12AB6000CE455 /* Main.storyboard */,
 				6FF7E7DB27E12ABE000CE455 /* Assets.xcassets */,
 				6FF7E7DD27E12ABE000CE455 /* LaunchScreen.storyboard */,
 				6FF7E7E027E12ABE000CE455 /* Info.plist */,
+				6FF7E7E627E139DC000CE455 /* Tablas.storyboard */,
+				6FF7E7E827E3D067000CE455 /* POO.storyboard */,
+				6FF7E7EA27E3D12A000CE455 /* Persistencia.storyboard */,
+				6FF7E7EC27E3D1EC000CE455 /* BaseDeDatos.storyboard */,
+				6FF7E7F027E3D3CE000CE455 /* Pod.storyboard */,
 			);
 			path = "Resumen Trabajo";
 			sourceTree = "<group>";
@@ -125,9 +143,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF7E7EF27E3D34C000CE455 /* Url.storyboard in Resources */,
 				6FF7E7DF27E12ABE000CE455 /* LaunchScreen.storyboard in Resources */,
+				6FF7E7F127E3D3CE000CE455 /* Pod.storyboard in Resources */,
 				6FF7E7DC27E12ABE000CE455 /* Assets.xcassets in Resources */,
+				6FF7E7E927E3D067000CE455 /* POO.storyboard in Resources */,
 				6FF7E7DA27E12AB6000CE455 /* Main.storyboard in Resources */,
+				6FF7E7EB27E3D12A000CE455 /* Persistencia.storyboard in Resources */,
+				6FF7E7ED27E3D1EC000CE455 /* BaseDeDatos.storyboard in Resources */,
+				6FF7E7E727E139DC000CE455 /* Tablas.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +316,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +344,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
