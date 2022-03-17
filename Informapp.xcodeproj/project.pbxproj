@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6FF7E7CF27E12AB6000CE455 /* Resumen Trabajo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resumen Trabajo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF7E7CF27E12AB6000CE455 /* Informapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Informapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF7E7D227E12AB6000CE455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FF7E7D427E12AB6000CE455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6FF7E7D627E12AB6000CE455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		6FF7E7D027E12AB6000CE455 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6FF7E7CF27E12AB6000CE455 /* Resumen Trabajo.app */,
+				6FF7E7CF27E12AB6000CE455 /* Informapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6FF7E7CE27E12AB6000CE455 /* Resumen Trabajo */ = {
+		6FF7E7CE27E12AB6000CE455 /* Informapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FF7E7E327E12ABE000CE455 /* Build configuration list for PBXNativeTarget "Resumen Trabajo" */;
+			buildConfigurationList = 6FF7E7E327E12ABE000CE455 /* Build configuration list for PBXNativeTarget "Informapp" */;
 			buildPhases = (
 				6FF7E7CB27E12AB6000CE455 /* Sources */,
 				6FF7E7CC27E12AB6000CE455 /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = "Resumen Trabajo";
+			name = Informapp;
 			productName = "Resumen Trabajo";
-			productReference = 6FF7E7CF27E12AB6000CE455 /* Resumen Trabajo.app */;
+			productReference = 6FF7E7CF27E12AB6000CE455 /* Informapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6FF7E7CA27E12AB6000CE455 /* Build configuration list for PBXProject "Resumen Trabajo" */;
+			buildConfigurationList = 6FF7E7CA27E12AB6000CE455 /* Build configuration list for PBXProject "Informapp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6FF7E7CE27E12AB6000CE455 /* Resumen Trabajo */,
+				6FF7E7CE27E12AB6000CE455 /* Informapp */,
 			);
 		};
 /* End PBXProject section */
@@ -313,6 +313,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Resumen Trabajo/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Informapp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,6 +342,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Resumen Trabajo/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Informapp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -363,7 +365,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6FF7E7CA27E12AB6000CE455 /* Build configuration list for PBXProject "Resumen Trabajo" */ = {
+		6FF7E7CA27E12AB6000CE455 /* Build configuration list for PBXProject "Informapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FF7E7E127E12ABE000CE455 /* Debug */,
@@ -372,7 +374,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FF7E7E327E12ABE000CE455 /* Build configuration list for PBXNativeTarget "Resumen Trabajo" */ = {
+		6FF7E7E327E12ABE000CE455 /* Build configuration list for PBXNativeTarget "Informapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FF7E7E427E12ABE000CE455 /* Debug */,
