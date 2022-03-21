@@ -7,10 +7,12 @@
 
 import Foundation
 
-struct POOModel {
+enum POOModel {
     static let titulo = "Programación Orientada a Objetos"
     static let descripcion = "POO Se basa en un paradigma en el que se resuelven problemas creando objetos. Consta de 3 pilares : Herencia, Polimorfismo, Encapsulación."
 }
+
+
 
 
 
