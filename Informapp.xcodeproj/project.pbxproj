@@ -23,6 +23,10 @@
 		6FF7E7F827E4D238000CE455 /* POOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E7F727E4D238000CE455 /* POOViewController.swift */; };
 		6FF7E7FA27E8C014000CE455 /* HerenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E7F927E8C014000CE455 /* HerenciaViewController.swift */; };
 		6FF7E7FC27E8C3B1000CE455 /* HerenciaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E7FB27E8C3B1000CE455 /* HerenciaModel.swift */; };
+		6FF7E7FF27E8D79A000CE455 /* EncapsulacionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E7FE27E8D79A000CE455 /* EncapsulacionModel.swift */; };
+		6FF7E80127E8DCC1000CE455 /* EncapsulacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E80027E8DCC1000CE455 /* EncapsulacionViewController.swift */; };
+		6FF7E80327E8E77B000CE455 /* PolimorfismoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E80227E8E77B000CE455 /* PolimorfismoModel.swift */; };
+		6FF7E80527E8E795000CE455 /* PolimorfismoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E80427E8E795000CE455 /* PolimorfismoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		6FF7E7F727E4D238000CE455 /* POOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POOViewController.swift; sourceTree = "<group>"; };
 		6FF7E7F927E8C014000CE455 /* HerenciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerenciaViewController.swift; sourceTree = "<group>"; };
 		6FF7E7FB27E8C3B1000CE455 /* HerenciaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerenciaModel.swift; sourceTree = "<group>"; };
+		6FF7E7FE27E8D79A000CE455 /* EncapsulacionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncapsulacionModel.swift; sourceTree = "<group>"; };
+		6FF7E80027E8DCC1000CE455 /* EncapsulacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncapsulacionViewController.swift; sourceTree = "<group>"; };
+		6FF7E80227E8E77B000CE455 /* PolimorfismoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolimorfismoModel.swift; sourceTree = "<group>"; };
+		6FF7E80427E8E795000CE455 /* PolimorfismoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolimorfismoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,8 @@
 				6FF7E7D627E12AB6000CE455 /* ViewController.swift */,
 				6FF7E7F727E4D238000CE455 /* POOViewController.swift */,
 				6FF7E7F927E8C014000CE455 /* HerenciaViewController.swift */,
+				6FF7E80027E8DCC1000CE455 /* EncapsulacionViewController.swift */,
+				6FF7E80427E8E795000CE455 /* PolimorfismoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -125,6 +135,8 @@
 			children = (
 				6FF7E7F527E4D112000CE455 /* POOModel.swift */,
 				6FF7E7FB27E8C3B1000CE455 /* HerenciaModel.swift */,
+				6FF7E7FE27E8D79A000CE455 /* EncapsulacionModel.swift */,
+				6FF7E80227E8E77B000CE455 /* PolimorfismoModel.swift */,
 			);
 			path = POO;
 			sourceTree = "<group>";
@@ -207,12 +219,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FF7E7FA27E8C014000CE455 /* HerenciaViewController.swift in Sources */,
+				6FF7E7FF27E8D79A000CE455 /* EncapsulacionModel.swift in Sources */,
 				6FF7E7D727E12AB6000CE455 /* ViewController.swift in Sources */,
 				6FF7E7D327E12AB6000CE455 /* AppDelegate.swift in Sources */,
 				6FF7E7FC27E8C3B1000CE455 /* HerenciaModel.swift in Sources */,
+				6FF7E80127E8DCC1000CE455 /* EncapsulacionViewController.swift in Sources */,
 				6FF7E7D527E12AB6000CE455 /* SceneDelegate.swift in Sources */,
 				6FF7E7F827E4D238000CE455 /* POOViewController.swift in Sources */,
 				6FF7E7F627E4D112000CE455 /* POOModel.swift in Sources */,
+				6FF7E80327E8E77B000CE455 /* PolimorfismoModel.swift in Sources */,
+				6FF7E80527E8E795000CE455 /* PolimorfismoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
