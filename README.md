@@ -5,3 +5,5 @@ Aplicación informativa sobre lenguaje de programación Swift y Programación Or
 
  ![landing](images/inicio.png)
  ![landing](images/Poo.png)
+ ![landing](images/herencia.png)
+
