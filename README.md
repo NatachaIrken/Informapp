@@ -4,4 +4,4 @@ Aplicación informativa sobre lenguaje de programación Swift y Programación Or
 
 
  ![landing](images/inicio.png)
- ![landing](images/poo.png)
+ ![landing](images/Poo.png)
