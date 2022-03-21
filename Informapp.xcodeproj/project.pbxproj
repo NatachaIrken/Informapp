@@ -113,11 +113,8 @@
 		6FF7E7F327E3E2FF000CE455 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6FF7E80627E8EFC2000CE455 /* POO */,
 				6FF7E7D627E12AB6000CE455 /* ViewController.swift */,
-				6FF7E7F727E4D238000CE455 /* POOViewController.swift */,
-				6FF7E7F927E8C014000CE455 /* HerenciaViewController.swift */,
-				6FF7E80027E8DCC1000CE455 /* EncapsulacionViewController.swift */,
-				6FF7E80427E8E795000CE455 /* PolimorfismoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -137,6 +134,17 @@
 				6FF7E7FB27E8C3B1000CE455 /* HerenciaModel.swift */,
 				6FF7E7FE27E8D79A000CE455 /* EncapsulacionModel.swift */,
 				6FF7E80227E8E77B000CE455 /* PolimorfismoModel.swift */,
+			);
+			path = POO;
+			sourceTree = "<group>";
+		};
+		6FF7E80627E8EFC2000CE455 /* POO */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7E80027E8DCC1000CE455 /* EncapsulacionViewController.swift */,
+				6FF7E7F727E4D238000CE455 /* POOViewController.swift */,
+				6FF7E7F927E8C014000CE455 /* HerenciaViewController.swift */,
+				6FF7E80427E8E795000CE455 /* PolimorfismoViewController.swift */,
 			);
 			path = POO;
 			sourceTree = "<group>";
