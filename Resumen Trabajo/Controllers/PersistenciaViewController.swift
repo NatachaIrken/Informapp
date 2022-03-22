@@ -17,10 +17,14 @@ class PersistenciaViewController : UIViewController {
     
     @IBOutlet weak var nombreUsuario: UITextField!
     
+    
+    @IBOutlet weak var mostrar: UILabel!
+    
     var name = ""
     
     override func viewDidLoad() {
         prepareText()
+
     }
     
     func prepareText(){
@@ -32,6 +36,22 @@ class PersistenciaViewController : UIViewController {
     @IBAction func guardar(_ sender: Any) {
         name = nombreUsuario.text!
         UserDefaults.standard.set(name, forKey: "user")
+        
+                
+    }
+    
+    
+    @IBAction func mostrarTexto(_ sender: Any) {
+        mostrar.text = UserDefaults.standard.string(forKey: "user")
+
+    
+    }
+    
+    @IBAction func eliminarTexto(_ sender: Any) {
+        UserDefaults.standard.removeObject(forKey: "user")
+        mostrar.text = "" 
+        
+        
         
     }
     
