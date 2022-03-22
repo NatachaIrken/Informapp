@@ -9,7 +9,7 @@ import Foundation
 
 enum PersistenciaModel {
     static let titulo = " UserDefault"
-    static let informacion = "Ingrese su Nombre"
+    static let informacion = "Ingrese su Nombre a continuación"
     
     
 }

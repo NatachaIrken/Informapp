@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2AFBE627EA0B7900FDD9B9 /* CamposTexto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2AFBE527EA0B7900FDD9B9 /* CamposTexto.storyboard */; };
+		6F2AFBE827EA0BAE00FDD9B9 /* CamposTextoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2AFBE727EA0BAE00FDD9B9 /* CamposTextoModel.swift */; };
+		6F2AFBEA27EA0BE900FDD9B9 /* CamposTextoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2AFBE927EA0BE900FDD9B9 /* CamposTextoViewController.swift */; };
+		6F2AFBEC27EA2A8A00FDD9B9 /* Vista2CamposTextoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2AFBEB27EA2A8900FDD9B9 /* Vista2CamposTextoViewController.swift */; };
+		6F2AFBEE27EA2B8C00FDD9B9 /* Campo2TextoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2AFBED27EA2B8C00FDD9B9 /* Campo2TextoModel.swift */; };
 		6FF7E7D327E12AB6000CE455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E7D227E12AB6000CE455 /* AppDelegate.swift */; };
 		6FF7E7D527E12AB6000CE455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E7D427E12AB6000CE455 /* SceneDelegate.swift */; };
 		6FF7E7D727E12AB6000CE455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E7D627E12AB6000CE455 /* ViewController.swift */; };
@@ -32,6 +37,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F2AFBE527EA0B7900FDD9B9 /* CamposTexto.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CamposTexto.storyboard; sourceTree = "<group>"; };
+		6F2AFBE727EA0BAE00FDD9B9 /* CamposTextoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamposTextoModel.swift; sourceTree = "<group>"; };
+		6F2AFBE927EA0BE900FDD9B9 /* CamposTextoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamposTextoViewController.swift; sourceTree = "<group>"; };
+		6F2AFBEB27EA2A8900FDD9B9 /* Vista2CamposTextoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vista2CamposTextoViewController.swift; sourceTree = "<group>"; };
+		6F2AFBED27EA2B8C00FDD9B9 /* Campo2TextoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campo2TextoModel.swift; sourceTree = "<group>"; };
 		6FF7E7CF27E12AB6000CE455 /* Informapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Informapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF7E7D227E12AB6000CE455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FF7E7D427E12AB6000CE455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +120,7 @@
 				6FF7E7EA27E3D12A000CE455 /* Persistencia.storyboard */,
 				6FF7E7E827E3D067000CE455 /* POO.storyboard */,
 				6FF7E7D827E12AB6000CE455 /* Main.storyboard */,
+				6F2AFBE527EA0B7900FDD9B9 /* CamposTexto.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +131,8 @@
 				6FF7E80627E8EFC2000CE455 /* POO */,
 				6FF7E7D627E12AB6000CE455 /* ViewController.swift */,
 				6FF7E80A27E95BF9000CE455 /* PersistenciaViewController.swift */,
+				6F2AFBE927EA0BE900FDD9B9 /* CamposTextoViewController.swift */,
+				6F2AFBEB27EA2A8900FDD9B9 /* Vista2CamposTextoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -129,6 +142,8 @@
 			children = (
 				6FF7E7FD27E8C3C6000CE455 /* POO */,
 				6FF7E80827E95B86000CE455 /* PersistenciaModel.swift */,
+				6F2AFBE727EA0BAE00FDD9B9 /* CamposTextoModel.swift */,
+				6F2AFBED27EA2B8C00FDD9B9 /* Campo2TextoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,6 +234,7 @@
 				6FF7E7DC27E12ABE000CE455 /* Assets.xcassets in Resources */,
 				6FF7E7E927E3D067000CE455 /* POO.storyboard in Resources */,
 				6FF7E7DA27E12AB6000CE455 /* Main.storyboard in Resources */,
+				6F2AFBE627EA0B7900FDD9B9 /* CamposTexto.storyboard in Resources */,
 				6FF7E7EB27E3D12A000CE455 /* Persistencia.storyboard in Resources */,
 				6FF7E7ED27E3D1EC000CE455 /* BaseDeDatos.storyboard in Resources */,
 				6FF7E7E727E139DC000CE455 /* Tablas.storyboard in Resources */,
@@ -235,6 +251,7 @@
 				6FF7E7FA27E8C014000CE455 /* HerenciaViewController.swift in Sources */,
 				6FF7E80927E95B86000CE455 /* PersistenciaModel.swift in Sources */,
 				6FF7E80B27E95BF9000CE455 /* PersistenciaViewController.swift in Sources */,
+				6F2AFBEE27EA2B8C00FDD9B9 /* Campo2TextoModel.swift in Sources */,
 				6FF7E7FF27E8D79A000CE455 /* EncapsulacionModel.swift in Sources */,
 				6FF7E7D727E12AB6000CE455 /* ViewController.swift in Sources */,
 				6FF7E7D327E12AB6000CE455 /* AppDelegate.swift in Sources */,
@@ -245,6 +262,9 @@
 				6FF7E7F627E4D112000CE455 /* POOModel.swift in Sources */,
 				6FF7E80327E8E77B000CE455 /* PolimorfismoModel.swift in Sources */,
 				6FF7E80527E8E795000CE455 /* PolimorfismoViewController.swift in Sources */,
+				6F2AFBEA27EA0BE900FDD9B9 /* CamposTextoViewController.swift in Sources */,
+				6F2AFBE827EA0BAE00FDD9B9 /* CamposTextoModel.swift in Sources */,
+				6F2AFBEC27EA2A8A00FDD9B9 /* Vista2CamposTextoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
