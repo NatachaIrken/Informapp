@@ -27,6 +27,8 @@
 		6FF7E80127E8DCC1000CE455 /* EncapsulacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E80027E8DCC1000CE455 /* EncapsulacionViewController.swift */; };
 		6FF7E80327E8E77B000CE455 /* PolimorfismoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E80227E8E77B000CE455 /* PolimorfismoModel.swift */; };
 		6FF7E80527E8E795000CE455 /* PolimorfismoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E80427E8E795000CE455 /* PolimorfismoViewController.swift */; };
+		6FF7E80927E95B86000CE455 /* PersistenciaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E80827E95B86000CE455 /* PersistenciaModel.swift */; };
+		6FF7E80B27E95BF9000CE455 /* PersistenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7E80A27E95BF9000CE455 /* PersistenciaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		6FF7E80027E8DCC1000CE455 /* EncapsulacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncapsulacionViewController.swift; sourceTree = "<group>"; };
 		6FF7E80227E8E77B000CE455 /* PolimorfismoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolimorfismoModel.swift; sourceTree = "<group>"; };
 		6FF7E80427E8E795000CE455 /* PolimorfismoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolimorfismoViewController.swift; sourceTree = "<group>"; };
+		6FF7E80827E95B86000CE455 /* PersistenciaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenciaModel.swift; sourceTree = "<group>"; };
+		6FF7E80A27E95BF9000CE455 /* PersistenciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenciaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 			children = (
 				6FF7E80627E8EFC2000CE455 /* POO */,
 				6FF7E7D627E12AB6000CE455 /* ViewController.swift */,
+				6FF7E80A27E95BF9000CE455 /* PersistenciaViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				6FF7E7FD27E8C3C6000CE455 /* POO */,
+				6FF7E80827E95B86000CE455 /* PersistenciaModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -227,6 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FF7E7FA27E8C014000CE455 /* HerenciaViewController.swift in Sources */,
+				6FF7E80927E95B86000CE455 /* PersistenciaModel.swift in Sources */,
+				6FF7E80B27E95BF9000CE455 /* PersistenciaViewController.swift in Sources */,
 				6FF7E7FF27E8D79A000CE455 /* EncapsulacionModel.swift in Sources */,
 				6FF7E7D727E12AB6000CE455 /* ViewController.swift in Sources */,
 				6FF7E7D327E12AB6000CE455 /* AppDelegate.swift in Sources */,

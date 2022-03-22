@@ -8,25 +8,115 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Persistencia View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="PersistenciaViewController" customModule="Informapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="titulo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hh-Xs-1Ko">
+                                <rect key="frame" x="110" y="59" width="194" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="EB5-hx-KkY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GYE-vf-SxU">
+                                <rect key="frame" x="40" y="191.5" width="334" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="4W6-pi-RyB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNH-kL-QVT">
+                                <rect key="frame" x="40" y="151" width="334" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFR-5U-02X">
+                                <rect key="frame" x="40" y="343.5" width="334" height="63"/>
+                                <color key="backgroundColor" red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="uQr-P6-IzA"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Guardar">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="guardar:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="USP-QM-Jhe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsS-Oc-abe">
+                                <rect key="frame" x="40" y="729" width="334" height="63"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="3m2-YO-v5p"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Volver">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle2"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="volver:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fdD-Xn-OOt"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VFR-5U-02X" firstAttribute="top" secondItem="GYE-vf-SxU" secondAttribute="bottom" constant="92" id="3H0-Dq-3Nx"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="JsS-Oc-abe" secondAttribute="bottom" constant="70" id="78K-3H-VeA"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="4Hh-Xs-1Ko" secondAttribute="trailing" constant="110" id="EOX-55-i2c"/>
+                            <constraint firstItem="4Hh-Xs-1Ko" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="110" id="Ic6-l2-2cT"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="YNH-kL-QVT" secondAttribute="trailing" constant="40" id="Kzo-K8-fya"/>
+                            <constraint firstItem="YNH-kL-QVT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="NKC-Qi-Nh1"/>
+                            <constraint firstItem="GYE-vf-SxU" firstAttribute="top" secondItem="YNH-kL-QVT" secondAttribute="bottom" constant="20" id="P8C-Ed-Q6G"/>
+                            <constraint firstItem="4Hh-Xs-1Ko" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="15" id="Whf-6a-WFO"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="JsS-Oc-abe" secondAttribute="trailing" constant="40" id="X8i-nS-tGx"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="GYE-vf-SxU" secondAttribute="trailing" constant="40" id="bs3-VM-a0F"/>
+                            <constraint firstItem="VFR-5U-02X" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="dE3-ZN-fBs"/>
+                            <constraint firstItem="JsS-Oc-abe" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="hCs-FX-xU0"/>
+                            <constraint firstItem="YNH-kL-QVT" firstAttribute="top" secondItem="4Hh-Xs-1Ko" secondAttribute="bottom" constant="40" id="t4d-jC-dLE"/>
+                            <constraint firstItem="GYE-vf-SxU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="tj4-xC-khp"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="VFR-5U-02X" secondAttribute="trailing" constant="40" id="v4r-dj-tVQ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nombreUsuario" destination="GYE-vf-SxU" id="1ID-F6-JhI"/>
+                        <outlet property="texto" destination="YNH-kL-QVT" id="tAQ-CV-jeE"/>
+                        <outlet property="titulo" destination="4Hh-Xs-1Ko" id="kMb-tb-7eQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="84"/>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
